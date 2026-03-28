@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://10.95.153.101:8080/';
+const API_BASE_URL = 'https://smart-analytics-backend-l03x.onrender.com';
 
 export const loginUser = async (email, password) => {
   const response = await fetch(`${API_BASE_URL}/auth/login`, {
