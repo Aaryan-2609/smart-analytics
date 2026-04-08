@@ -18,7 +18,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: "smart-analytics-sigma.vercel.app",
+  origin: "https://smart-analytics-sigma.vercel.app",
   credentials: true
 }));
 app.use(express.json());
