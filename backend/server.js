@@ -17,10 +17,7 @@ connectDB();
 const app = express();
 
 // Middleware
-app.use(cors({
-  origin: "https://smart-analytics-sigma.vercel.app",
-  credentials: true
-}));
+app.use(cors());
 app.use(express.json());
 
 // Routes
