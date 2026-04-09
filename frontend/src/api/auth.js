@@ -1,5 +1,5 @@
 const API_BASE_URL = 'https://smart-analytics-backend-l03x.onrender.com';
-// const API_BASE_URL = import.meta.env.VITE_API_URL;
+
 export const loginUser = async (email, password) => {
   const response = await fetch(`${API_BASE_URL}/auth/login`, {
     method: 'POST',
